@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.background_imge{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../abod/imge/greer-startup-culture.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.header{
+    width: auto;
+    color: #fff;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.header h1{
+    font-size: 40px;
+    border: 3px solid rgb(130, 163, 9);
+    padding: 0% 0%;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menubar{
+    flex: 1;
+    text-align: right;
+}
+
+.menubar ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 4px 8px;
+}
+.menubar ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menubar ul li ::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background:rgb(130, 163, 9);
+    display: block;
+    margin: auto;
+    transform: 1.2em;
+}
+.menubar ul li:hover::after{
+    width: 100%;
+    
+}
+
+
+
+.first_button{
+
+display: inline-block;
+text-decoration:none ;
+color: #fff;
+border: #fff solid 3px;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor: pointer;
+}
+
+.first_button:hover{
+    border: 1px solid #fff;
+    background: crimson;
+    transition: 1s;
+}
+
+.ourbutton{
+    width: 90%;
+    color: #fff;
+    position:absolute;
+    top: 80%;
+    left: 5%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    
+}
+
+.ourbutton a{
+    margin: 10px 0px 40px;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    width: auto;
+
+}
+
+.imge_1{
+    width: 50px;
+    height: 120px;
+    opacity: 0.2;
+}
+
+.img_2{
+    margin: 10px 0px 7px;
+    width: 50px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    opacity: 0.09;
+}
+
+
+.par p{
+    text-align: center;
+    margin: 10px 0px 40px;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    width: auto;
+    top: 50%;
+    z-index:initial;
+}
